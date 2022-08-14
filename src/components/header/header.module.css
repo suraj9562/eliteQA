@@ -1,0 +1,40 @@
+.container {
+  height: 10rem;
+  border-bottom: 1px solid #dddddd;
+  padding: 0 11rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .image img {
+  max-width: 11rem;
+  cursor: pointer;
+}
+
+.container .links {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.container .links .link {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-transform: capitalize;
+  color: #585555;
+
+  cursor: pointer;
+}
+
+.container .links .active {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-transform: capitalize;
+  color: #00c49a;
+
+  cursor: pointer;
+}
