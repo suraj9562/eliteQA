@@ -1,0 +1,80 @@
+.container {
+  margin: 0 11rem;
+  margin-top: 12rem;
+
+  padding: 8rem 10rem;
+  background: #00c49a;
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.container .left {
+  width: 50%;
+}
+
+.container .left .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.3rem;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.container .left .subtitle {
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.container .right {
+  width: 50%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container .right .input {
+  width: 80%;
+  background: #ffffff;
+  border-radius: 10rem;
+
+  position: relative;
+}
+
+.container .right .input input {
+  width: 70%;
+  padding: 1.5rem 4rem;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+
+  color: #aaaaaa;
+}
+
+.container .right .input .submit {
+  background: #ff6812;
+  border-radius: 10rem;
+  max-width: 15rem;
+
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #ffffff;
+
+  text-align: center;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}

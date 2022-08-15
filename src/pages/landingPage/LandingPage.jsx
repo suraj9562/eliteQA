@@ -1,3 +1,4 @@
+import Contact from "../../components/contact/Contact";
 import FAQ from "../../components/faq/FAQ";
 import Feature from "../../components/feature/Feature";
 import FooterFeature from "../../components/FooterFeature/FooterFeature";
@@ -12,6 +13,7 @@ function LandingPage() {
       <Feature />
       <FAQ />
       <FooterFeature />
+      <Contact />
     </div>
   );
 }
