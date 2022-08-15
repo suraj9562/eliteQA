@@ -107,3 +107,22 @@
 
   color: #ffffff !important;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 8rem;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+
+    gap: 8rem;
+  }
+
+  .container .mid {
+    width: 60%;
+    gap: 2rem;
+  }
+
+  .container .right .input {
+    width: 90%;
+  }
+}

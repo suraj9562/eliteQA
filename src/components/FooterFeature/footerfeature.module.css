@@ -3,7 +3,7 @@
   padding: 9rem 15rem;
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 8rem;
   background: #fee9e1;
 }
 
@@ -12,10 +12,14 @@
   position: relative;
 }
 
+.container .left .image {
+  width: 100%;
+}
+
 .container .left .ContactOverlay {
   position: absolute;
   bottom: -30%;
-  right: 0;
+  right: -20%;
 }
 
 .container .right {
@@ -42,4 +46,16 @@
   line-height: 3.2rem;
   letter-spacing: 0.5px;
   color: #79869f;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 8rem 12rem;
+  }
+
+  .container .left .ContactOverlay {
+    bottom: -30%;
+    right: -25%;
+    max-width: 35rem;
+  }
 }

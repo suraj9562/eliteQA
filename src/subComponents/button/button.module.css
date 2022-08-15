@@ -1,7 +1,7 @@
 .container {
   cursor: pointer;
 
-  padding: 1.2rem 4.2rem;
+  padding: 1.2rem 3.2rem;
   background: #ff6812;
   border-radius: 12px;
   border: 1px solid #ff6812;
@@ -15,4 +15,10 @@
   max-width: 18rem;
 
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 15rem;
+  }
 }

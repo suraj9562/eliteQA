@@ -9,6 +9,7 @@
   justify-content: space-between;
 
   position: relative;
+  gap: 5rem;
 }
 
 .container .firstContainer .left {
@@ -163,4 +164,48 @@
 .container .thirdContainer .right .btn {
   margin-top: 4rem;
   width: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-top: 6rem;
+    padding: 0 7rem;
+  }
+
+  .container .firstContainer .right .firstOverlay {
+    left: -20%;
+  }
+
+  .container .firstContainer .right .firstOverlay img {
+    height: 12rem;
+  }
+
+  .container .firstContainer .right .image img {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 5rem;
+    padding: 0 5rem;
+  }
+
+  .container .firstContainer {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8rem;
+  }
+
+  .container .firstContainer .left {
+    width: 100%;
+  }
+
+  .container .firstContainer .right {
+    margin: auto;
+  }
+
+  .container .thirdContainer {
+    flex-wrap: wrap;
+  }
 }

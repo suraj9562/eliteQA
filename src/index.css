@@ -40,6 +40,13 @@ html {
   background: #555;
 }
 
+@media screen and (max-width: 1024px) {
+  html,
+  body {
+    font-size: 9px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   html,
   body {

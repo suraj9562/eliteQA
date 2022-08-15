@@ -45,3 +45,9 @@
   cursor: pointer;
   width: 6rem !important;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding-left: 9rem;
+  }
+}

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Styles from "./intro.module.css";
 import Button from "../../subComponents/button/Button";
 

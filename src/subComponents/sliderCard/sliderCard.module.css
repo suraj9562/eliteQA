@@ -48,3 +48,9 @@
   line-height: 2.8rem;
   color: #616263;
 }
+
+@media screen and (max-width: 1024px) {
+  .card {
+    min-width: 35rem;
+  }
+}

@@ -4,12 +4,16 @@
 
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 7rem;
 }
 
 .container .left {
   width: 50%;
   position: relative;
+}
+
+.container .left img {
+  max-width: 40rem;
 }
 
 .container .left .RectangleUpper {
@@ -61,4 +65,20 @@
   line-height: 1.9rem;
   letter-spacing: 0.5px;
   color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 10rem;
+  }
+
+  .container .left .RectangleUpper {
+    right: -5%;
+    top: -10%;
+  }
+
+  .container .left .RectangleLower {
+    right: 0;
+    bottom: -20%;
+  }
 }

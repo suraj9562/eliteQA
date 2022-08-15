@@ -1,6 +1,4 @@
 import Styles from "./feature.module.css";
-
-import cardIcon from "./../../assets/icons/cardIcon.svg";
 import Card from "../../subComponents/card/Card";
 
 function Feature() {

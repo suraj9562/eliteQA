@@ -7,7 +7,7 @@ function FooterFeature() {
   return (
     <div className={Styles.container}>
       <div className={Styles.left}>
-        <img src={contactImg} alt="" />
+        <img src={contactImg} alt="" className={Styles.image}/>
         <img src={ContactOverlay} alt="" className={Styles.ContactOverlay} />
       </div>
       <div className={Styles.right}>
