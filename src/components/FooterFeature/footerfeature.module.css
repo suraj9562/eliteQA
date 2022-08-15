@@ -1,0 +1,45 @@
+.container {
+  margin-top: 13rem;
+  padding: 9rem 15rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  background: #fee9e1;
+}
+
+.container .left {
+  width: 50%;
+  position: relative;
+}
+
+.container .left .ContactOverlay {
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+}
+
+.container .right {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container .right .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.7rem;
+  letter-spacing: 0.5px;
+  color: #242424;
+}
+
+.container .right .subtitle {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.5px;
+  color: #79869f;
+}
