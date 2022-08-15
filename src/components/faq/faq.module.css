@@ -82,3 +82,25 @@
     bottom: -20%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10rem;
+  }
+
+  .container .left .RectangleUpper {
+    right: -25%;
+    top: -20%;
+  }
+
+  .container .left .RectangleLower {
+    right: -20%;
+    bottom: -20%;
+  }
+
+  .container .right {
+    width: 100%;
+  }
+}

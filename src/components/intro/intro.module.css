@@ -207,5 +207,10 @@
 
   .container .thirdContainer {
     flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container .thirdContainer .right {
+    width: 100%;
   }
 }

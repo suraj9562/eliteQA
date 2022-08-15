@@ -29,3 +29,9 @@
   background: #f8f7ff;
   border-radius: 1.6rem;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 30rem;
+  }
+}

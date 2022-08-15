@@ -88,3 +88,18 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container .left {
+    width: 100%;
+  }
+
+  .container .right {
+    width: 80%;
+  }
+}

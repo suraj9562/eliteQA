@@ -126,3 +126,25 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container .left {
+    width: 100%;
+  }
+
+  .container .mid {
+    width: 70%;
+  }
+
+  .container .right {
+    width: 20%;
+  }
+
+  .container .right .input {
+    width: 100%;
+  }
+}

@@ -33,3 +33,19 @@
     width: 50%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 8rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+  }
+
+  .container .title {
+    width: 70%;
+  }
+
+  .container .cardContainer {
+    justify-content: center;
+  }
+}

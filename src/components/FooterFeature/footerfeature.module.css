@@ -59,3 +59,14 @@
     max-width: 35rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container .right {
+    width: 100%;
+  }
+}
