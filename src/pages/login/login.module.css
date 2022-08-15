@@ -1,4 +1,5 @@
 .container {
+  display: flex;
 }
 
 .container .left {
@@ -101,4 +102,137 @@
 
   text-align: center;
   cursor: pointer;
+}
+
+.container .right {
+  height: 100%;
+  width: 50%;
+  background-color: #00C49A;
+}
+
+.container .right .boxOne {
+  margin-left: 84px;
+  margin-top: 154px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 256px;
+  height: 76px;
+  background: #FFFFFF;
+  box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1);
+  border-radius: 10px;
+}
+
+.container .right .boxOne img {
+  margin-left: 15px;
+  width: 47px;
+  height: 42px;
+}
+
+.container .right .boxOne .boxText {
+  margin-left: 10px;
+}
+
+.container .right .boxOne .boxText .textOne {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1B1D21;
+}
+
+.container .right .boxOne .boxText .textTwo {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #AAAAAA;
+}
+
+.container .right .imageContainerOne {
+  margin-left: 84px;
+  margin-right: 75px;
+  margin-top: 77px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .right .imageContainerTwo {
+  display: flex;
+  justify-content: center;
+}
+
+.container .right .imageContainerTwo .boxTwo {
+  position: absolute;
+  left: 78%;
+  top: 77%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 237px;
+  height: 72px;
+  background: #FFFFFF;
+  box-shadow: 10px 32px 72px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+
+.container .right .imageContainerTwo .boxTwo .boxText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 19px;
+}
+
+.container .right .imageContainerTwo .boxTwo .boxText .textOne {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.container .right .imageContainerTwo .boxTwo .boxText .textTwo {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  color: #AAAAAA;
+}
+
+.container .right .subText {
+  margin-top: 107px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.container .right .subText p {
+  width: 554px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.container .right .ellipseOne {
+  margin-top: 55px;
+  margin-left: 84px;
+  position: absolute;
+}
+
+.container .right .ellipseTwo {
+  top: 34%;
+  left: 45%;
+  position: absolute;
 }
