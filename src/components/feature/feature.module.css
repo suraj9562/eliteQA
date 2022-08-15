@@ -1,0 +1,28 @@
+.container {
+  margin-top: 12rem;
+  padding: 0 12rem;
+  padding-top: 7rem;
+  padding-bottom: 12rem;
+
+  background: #fee9e1;
+}
+
+.container .title {
+  width: 40%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.02em;
+  color: #0a2b43;
+}
+
+.container .cardContainer {
+  margin-top: 4rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
