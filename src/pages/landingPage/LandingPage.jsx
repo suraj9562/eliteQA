@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import FooterFeature from "../../components/FooterFeature/FooterFeature";
 import Header from "../../components/header/Header";
 import Intro from "../../components/intro/Intro";
+import Testimonial from "../../components/Testimonial/Testimonial";
 
 function LandingPage() {
   return (
@@ -13,6 +14,7 @@ function LandingPage() {
       <Intro />
       <Feature />
       <FAQ />
+      <Testimonial />
       <FooterFeature />
       <Contact />
       <Footer />
