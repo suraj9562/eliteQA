@@ -1,0 +1,64 @@
+.container {
+  margin-top: 12rem;
+  padding: 0 12rem;
+
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.container .left {
+  width: 50%;
+  position: relative;
+}
+
+.container .left .RectangleUpper {
+  position: absolute;
+  right: 20%;
+  top: -10%;
+}
+
+.container .left .RectangleLower {
+  position: absolute;
+  right: 25%;
+  bottom: -20%;
+}
+
+.container .right {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.container .right .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.5rem;
+  letter-spacing: 0.5px;
+
+  color: #000000;
+}
+
+.container .right .pointsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.container .right .point {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container .right .point span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
