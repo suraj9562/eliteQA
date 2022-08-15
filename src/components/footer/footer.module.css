@@ -1,0 +1,109 @@
+.container {
+  margin-top: 11rem;
+  padding: 0 12rem;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  background: #242424;
+
+  display: flex;
+  gap: 10rem;
+}
+
+.container .left {
+  width: 25%;
+}
+
+.container .left .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.075px;
+
+  color: #ffffff;
+}
+
+.container .left .subtitle {
+  margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.container .mid {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.container .mid .block {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.container .mid .block .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+
+  color: #ffffff;
+}
+
+.container .mid .block .links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container .mid .block .links span {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.container .right {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.container .right .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #ffffff;
+}
+
+.container .right .input {
+  width: 80%;
+  background: #b3bac5;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  border-radius: 8px;
+}
+
+.container .right .input input {
+  width: 100%;
+  padding: 1.5rem 2rem;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+
+  color: #ffffff !important;
+}
