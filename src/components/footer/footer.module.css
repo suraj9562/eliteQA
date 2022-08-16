@@ -91,10 +91,10 @@
 
 .container .right .input {
   width: 80%;
-  background: #b3bac5;
+  background: rgba(50, 48, 48, 0.5);
   mix-blend-mode: normal;
-  opacity: 0.1;
   border-radius: 8px;
+  color: #ffffff !important;
 }
 
 .container .right .input input {
@@ -104,7 +104,6 @@
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.9rem;
-
   color: #ffffff !important;
 }
 

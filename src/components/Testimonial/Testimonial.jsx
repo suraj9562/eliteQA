@@ -34,9 +34,8 @@ function Testimonial() {
         </div>
       </div>
       <Swiper
-        slidesPerView={2}
-        centeredSlides={true}
-        spaceBetween={30}
+        slidesPerView={3}
+        spaceBetween={40}
         modules={[Navigation]}
         navigation={{ nextEl: "#swiper-forward", prevEl: "#swiper-back" }}
       >

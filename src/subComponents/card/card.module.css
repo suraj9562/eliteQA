@@ -6,6 +6,8 @@
   gap: 2rem;
   transition: 0.4s ease-out;
   cursor: pointer;
+  background: #f8f7ff;
+  border-radius: 1.6rem;
 }
 
 .card .title {
@@ -26,8 +28,7 @@
 }
 
 .card:hover {
-  background: #f8f7ff;
-  border-radius: 1.6rem;
+  background: #fee9e1;
 }
 
 @media screen and (max-width: 768px) {

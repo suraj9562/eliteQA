@@ -8,6 +8,7 @@ import avatarThree from "../../assets/images/roundAvatarThree.svg";
 import threeDots from "../../assets/images/threeDots.svg";
 import ellipseOne from "../../assets/images/ellipseOne.svg";
 import ellipseTwo from "../../assets/images/ellipseTwo.svg";
+import PasswordResetDoneCard from "../../subComponents/passwordResetDoneCard/PasswordResetDoneCard";
 
 function PasswordReset() {
   return (
@@ -32,6 +33,8 @@ function PasswordReset() {
             <Button data="Send Reset Link" styles={{ maxWidth: "100%" }} />
           </div>
         </div>
+
+        {/* <PasswordResetDoneCard /> */}
       </div>
       <div className={Styles.right}>
         <img src={ellipseOne} alt="thumbs up" className={Styles.ellipseOne} />
@@ -39,7 +42,8 @@ function PasswordReset() {
         <div className={Styles.boxOne}>
           <img src={thumbUp} alt="thumbs up" />
           <div className={Styles.boxText}>
-            <span className={Styles.textOne}>135</span><br />
+            <span className={Styles.textOne}>135</span>
+            <br />
             <span className={Styles.textTwo}>Companies Using ElteQA</span>
           </div>
         </div>
@@ -51,17 +55,22 @@ function PasswordReset() {
           <img src={avatarThree} alt="thumbs up" />
           <div className={Styles.boxTwo}>
             <div className={Styles.boxText}>
-              <span className={Styles.textOne}>Name here</span><br />
-              <span className={Styles.textTwo}>Hiring is now peice of cake!</span>
+              <span className={Styles.textOne}>Name here</span>
+              <br />
+              <span className={Styles.textTwo}>
+                Hiring is now peice of cake!
+              </span>
             </div>
           </div>
         </div>
 
         <div className={Styles.subText}>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu ipsum, mollis non erat vitae, vulputate ultrices dui</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu
+            ipsum, mollis non erat vitae, vulputate ultrices dui
+          </p>
           <img src={threeDots} alt="thumbs up" />
         </div>
-
       </div>
     </div>
   );
