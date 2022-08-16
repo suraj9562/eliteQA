@@ -13,8 +13,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/password/reset" element={<PasswordReset />} />
-        <Route path="/newPassword" element={<CreateNewPassword />} />
-        <Route path="/notFound" element={<NotFound />} />
+        <Route path="/password/new" element={<CreateNewPassword />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
