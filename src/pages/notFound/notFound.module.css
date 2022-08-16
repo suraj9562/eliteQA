@@ -1,0 +1,30 @@
+.container {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+
+
+    position: absolute;
+    top: 70%;
+}
+
+.container .overlay .title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.32px;
+  width: 70%;
+
+  color: #757677;
+}
