@@ -105,7 +105,7 @@
 }
 
 .container .right {
-  max-height: 100vh;
+  min-height: 100vh;
   width: 50%;
   background-color: #00c49a;
 }
@@ -160,6 +160,7 @@
 .container .right .imageContainerTwo {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .container .right .imageContainerTwo img {
@@ -168,8 +169,8 @@
 
 .container .right .imageContainerTwo .boxTwo {
   position: absolute;
-  left: 77%;
-  top: 73%;
+  bottom: 0;
+  right: 13%;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -208,7 +209,7 @@
 }
 
 .container .right .subText {
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,12 +218,12 @@
 }
 
 .container .right .subText p {
-  width: 554px;
+  padding: 0 2rem;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 1.4rem;
+  line-height: 3rem;
   text-align: center;
   letter-spacing: 0.5px;
   color: #ffffff;
@@ -238,4 +239,65 @@
   top: 22%;
   left: 45%;
   position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+  .container .left .form {
+    padding: 2rem;
+  }
+
+  .container .left {
+    padding: 0 6rem;
+  }
+
+  .container .right .imageContainerOne {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .container .right .imageContainerOne img {
+    max-width: 15rem;
+  }
+
+  .container .right .imageContainerTwo img {
+    max-width: 17rem;
+  }
+
+  .container .right .imageContainerTwo .boxTwo {
+    right: 7%;
+    max-width: 20rem;
+  }
+
+  .container .right .ellipseOne {
+    max-width: 30rem;
+  }
+
+  .container .right .ellipseTwo {
+    top: 24%;
+    max-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .container .left {
+    padding-left: 4rem;
+  }
+
+  .container .right .imageContainerOne {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .container .right .ellipseOne {
+    top: -2%;
+  }
+
+  .container .right .ellipseTwo {
+    top: 21%;
+  }
+
+  .container .right .imageContainerTwo .boxTwo {
+    right: 0;
+  }
 }

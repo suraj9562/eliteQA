@@ -92,6 +92,9 @@
 
 .container .firstContainer .right .firstOverlay img {
   height: 16rem;
+  box-shadow: 10px 31px 72px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  border-radius: 16px;
 }
 
 .container .firstContainer .right .secondOverlay {
@@ -102,6 +105,9 @@
 
 .container .firstContainer .right .secondOverlay img {
   height: 8rem;
+  background: #ffffff;
+  box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1);
+  border-radius: 10px;
 }
 
 .container .firstContainer .right .thirdOverlay {
@@ -120,6 +126,7 @@
 
 .container .thirdContainer .left {
   width: 50%;
+  position: relative;
 }
 
 .container .thirdContainer .left img {
