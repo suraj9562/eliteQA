@@ -5,6 +5,7 @@ import PasswordReset from "./pages/passordReset/PasswordReset";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./pages/notFound/NotFound";
 import CreateNewPassword from "./pages/createNewPassword/CreateNewPassword";
+import Loading from "./pages/Loading/Loading";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/password/reset" element={<PasswordReset />} />
         <Route path="/password/new" element={<CreateNewPassword />} />
+        {/* <Route path="/loading" element={<Loading />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

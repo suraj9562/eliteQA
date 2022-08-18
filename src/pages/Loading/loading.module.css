@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: center;
+}
+
+.container .textContainer {
+  width: 50%;
+}
+
+.container .textContainer .text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #545050;
+}
+
+.container .textContainer .author {
+  margin-top: 2rem;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: #858383;
+}
+
+.container .textContainer .author span {
+  padding-left: 1rem;
+}
+
+.container .loader {
+  border: 7px solid #FDF3F3;
+  border-radius: 50%;
+  border-top: 7px solid #FF6812;;
+  width: 6rem;
+  height: 6rem;
+  animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
