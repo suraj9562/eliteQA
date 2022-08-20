@@ -1,12 +1,12 @@
 import Styles from "./select.module.css";
 
-function Select() {
+function Select({data}) {
   return (
     <>
       <label className={Styles.select} htmlFor="select">
         <select name="Created by" id="">
           <option value="" disabled="disabled" selected="selected">
-            Created by
+            {data}
           </option>
           <option value="#">One</option>
           <option value="#">Two</option>
