@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./pages/notFound/NotFound";
 import CreateNewPassword from "./pages/createNewPassword/CreateNewPassword";
 import Loading from "./pages/Loading/Loading";
+import Dashboard from "./pages/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/password/reset" element={<PasswordReset />} />
         <Route path="/password/new" element={<CreateNewPassword />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         {/* <Route path="/loading" element={<Loading />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>

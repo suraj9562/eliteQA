@@ -1,0 +1,88 @@
+.container {
+  padding: 2rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #dddddd;
+}
+
+.container .left {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.container .left .logoContainer {
+  background: #2a2c2b;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.container .left .searchBox input {
+  background: rgba(241, 245, 247, 0.0001);
+  padding: 1.7rem 2.5rem;
+  border: 2px solid #d9e1e7;
+  border-radius: 1rem;
+
+  font-family: "Nunito";
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #636568;
+}
+
+.container .left .linksContainer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container .left .link {
+  padding: 1.5rem 3.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #404345;
+}
+
+.container .left .link:hover {
+  background: #fee9e1;
+  border-radius: 1rem;
+}
+
+.container .right {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.container .right .notification {
+  border: 2px solid #d9e1e7;
+  padding: 1.7rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.container .right .profileImg {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container .right .profileImg img {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container .right .profileImg .dropdown img {
+  border-radius: 1rem;
+  cursor: pointer;
+}
