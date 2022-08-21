@@ -53,7 +53,7 @@
   color: #404345;
 }
 
-.container .left .link:hover {
+.container .left .active {
   background: #fee9e1;
   border-radius: 1rem;
 }

@@ -1,4 +1,5 @@
 import Styles from "./dashBoardHeader.module.css";
+import { NavLink } from "react-router-dom";
 
 import DashboardHeaderIcon from "./../../assets/icons/dashboardHeaderIcon.svg";
 import Dashboard from "./../../assets/icons/dashboard.svg";
@@ -20,14 +21,24 @@ function DashBoardHeader() {
         </div>
 
         <div className={Styles.linksContainer}>
-          <div className={Styles.link}>
-            <img src={Dashboard} alt="" />
-            <span>Dashboard</span>
-          </div>
-          <div className={Styles.link}>
-            <img src={Files} alt="" />
-            <span>Notifications</span>
-          </div>
+          <NavLink
+            to="/dashboard"
+            className={({ isActive }) => (isActive ? Styles.active : "")}
+          >
+            <div className={Styles.link}>
+              <img src={Dashboard} alt="" />
+              <span>Dashboard</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="/library"
+            className={({ isActive }) => (isActive ? Styles.active : "")}
+          >
+            <div className={Styles.link}>
+              <img src={Files} alt="" />
+              <span>Library</span>
+            </div>
+          </NavLink>
         </div>
       </div>
 

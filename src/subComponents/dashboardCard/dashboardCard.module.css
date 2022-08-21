@@ -1,0 +1,114 @@
+.card {
+  padding: 2.4rem 2rem;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  min-width: 50rem;
+  max-width: 53rem;
+}
+
+.card .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .header .menu {
+  cursor: pointer;
+}
+
+.card .header .status {
+  position: relative;
+  padding: 1.4rem 2.4rem;
+  padding-left: 6rem;
+  background: #fee9e1;
+  border-radius: 50rem;
+
+  max-width: 32%;
+}
+
+.card .header .status .content {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #565050;
+}
+
+.card .header .status .icon {
+  height: 4.6rem;
+  width: 4.6rem;
+  background: #ff6812;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card .header .status .icon img {
+  padding: 1.4rem;
+}
+
+.card .name {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  color: #313131;
+}
+
+.card .desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+
+  color: #827c7c;
+}
+
+.card .desc span {
+  color: #00c49a;
+}
+
+.card .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .footer .left {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #827c7c;
+}
+
+.card .footer .left div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card .footer .right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}

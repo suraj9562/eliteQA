@@ -1,0 +1,62 @@
+.container {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.container .titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .titleContainer .input {
+  background: #f1f5f7;
+  border-radius: 1.6rem;
+
+  width: 46rem;
+}
+
+.container .titleContainer .input input {
+  padding: 1.9rem 2.6rem;
+  width: 100%;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #55585d;
+}
+
+.container .titleContainer .btn {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  background: rgba(254, 233, 225, 0.54);
+
+  padding: 1.6rem 3.3rem;
+  border-radius: 1.6rem;
+  cursor: pointer;
+  border: 1px dashed #809fb8;
+}
+
+.container .titleContainer .btn .sign {
+  max-width: 1.5rem;
+}
+
+.container .titleContainer .btn .text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #384455;
+}
+
+.container .cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+}
