@@ -1,5 +1,5 @@
 import Styles from "./dashBoardHeader.module.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import DashboardHeaderIcon from "./../../assets/icons/dashboardHeaderIcon.svg";
 import Dashboard from "./../../assets/icons/dashboard.svg";
@@ -43,12 +43,16 @@ function DashBoardHeader() {
       </div>
 
       <div className={Styles.right}>
-        <div className={Styles.notification}>
-          <img src={Notification} alt="" />
-        </div>
+        <Link to="/notification">
+          <div className={Styles.notification}>
+            <img src={Notification} alt="" />
+          </div>
+        </Link>
 
         <div className={Styles.profileImg}>
-          <img src={profileImg} alt="" />
+          <Link to="/profile">
+            <img src={profileImg} alt="" />
+          </Link>
           <div className={Styles.dropdown}>
             <img src={dropDown} alt="" />
           </div>

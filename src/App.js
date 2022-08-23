@@ -8,6 +8,7 @@ import CreateNewPassword from "./pages/createNewPassword/CreateNewPassword";
 import Loading from "./pages/Loading/Loading";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Library from "./pages/Library/Library";
+import Profile from "./pages/profile/Profile";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/password/new" element={<CreateNewPassword />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/library" element={<Library />} />
+        <Route path="/profile" element={<Profile />} />
         {/* <Route path="/loading" element={<Loading />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
