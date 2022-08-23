@@ -30,7 +30,7 @@ function ProfileLeftSideBar() {
             <span>Password</span>
           </div>
         </NavLink>
-        <Link to="/">
+        <Link onClick={()=>localStorage.clear()} to="/">
           <div className={Styles.link}>
             <img src={logOut} alt="" />
             <span className={Styles.logOut}>Log Out</span>

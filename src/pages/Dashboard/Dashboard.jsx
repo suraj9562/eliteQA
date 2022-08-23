@@ -1,3 +1,4 @@
+import React from 'react'
 import DashBoardHeader from "../../components/dashBoardHeader/DashBoardHeader";
 import Tests from "../../components/Tests/Tests";
 import Select from "../../subComponents/select/Select";
@@ -5,7 +6,8 @@ import Styles from "./dashboard.module.css";
 
 import DashboardHeaderIcon from "./../../assets/icons/dashboardHeaderIcon.svg";
 
-function Dashboard() {
+function Dashboard(props) {
+  
   return (
     <div className={Styles.container}>
       <DashBoardHeader />

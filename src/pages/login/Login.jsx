@@ -1,3 +1,4 @@
+import React,{useState} from 'react'
 import Styles from "./login.module.css";
 import loginLogo from "./../../assets/icons/loginLogo.svg";
 import Button from "./../../subComponents/button/Button";
@@ -8,9 +9,31 @@ import avatarThree from "../../assets/images/roundAvatarThree.svg";
 import threeDots from "../../assets/images/threeDots.svg";
 import ellipseOne from "../../assets/images/ellipseOne.svg";
 import ellipseTwo from "../../assets/images/ellipseTwo.svg";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
+import axios from 'axios'
+import { backend_url } from '../../constant';
+function Login(props) {
+  let navigate = useNavigate();
+  const [userName,setuserName]=useState("")
+  const [password,setpassword]=useState("")
 
-function Login() {
+  const loginUser=async()=>{
+   try{
+    const res = await axios.post(`${backend_url}eqa/login`,{
+      "userName":userName,
+      "password":password
+    })
+    console.log(res.data)
+    if(res.status===200){
+      localStorage.setItem('token', res.data.token)
+      navigate("/dashboard")
+    }else  if(res.status===404) {
+      alert("Authentication failed, please check your username and password.")
+    }
+    }catch(error){
+      alert(error.response.data.error)
+    }
+  }
   return (
     <div className={Styles.container}>
       <div className={Styles.left}>
@@ -26,18 +49,18 @@ function Login() {
         <div className={Styles.form}>
           <div className={Styles.inputItem}>
             <label htmlFor="userName">Username</label>
-            <input type="text" name="" id="userName" />
+            <input onChange={(e)=>setuserName(e.target.value)} value={userName} type="text" name="" id="userName" />
           </div>
           <div className={Styles.inputItem}>
             <label htmlFor="password">Password</label>
-            <input type="password" name="" id="password" />
+            <input type="password" onChange={(e)=>setpassword(e.target.value)} value={password} name="" id="password" />
           </div>
           <div className={Styles.checkbox}>
             <input type="checkbox" value="lsRememberMe" id="rememberMe" />{" "}
             <label for="rememberMe">Remember me</label>
           </div>
           <div className={Styles.btn}>
-            <Button data="Sign in" styles={{ maxWidth: "100%" }} />
+            <Button loginClick={loginUser} data="Sign in" styles={{ maxWidth: "100%" }} />
           </div>
           <Link to="/password/reset">
             {" "}

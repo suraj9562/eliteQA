@@ -1,3 +1,5 @@
+import React,{useState} from 'react'
+import axios from 'axios';
 import Styles from "./../login/login.module.css";
 import loginLogo from "./../../assets/icons/loginLogo.svg";
 import Button from "./../../subComponents/button/Button";
@@ -9,8 +11,21 @@ import threeDots from "../../assets/images/threeDots.svg";
 import ellipseOne from "../../assets/images/ellipseOne.svg";
 import ellipseTwo from "../../assets/images/ellipseTwo.svg";
 import PasswordResetDoneCard from "../../subComponents/passwordResetDoneCard/PasswordResetDoneCard";
-
+import { backend_url } from '../../constant';
 function PasswordReset() {
+  const [email,setemail]=useState("")
+  const forgotPassword=async()=>{
+    try{
+    const forgotPasswordResponse = await axios.post(`${backend_url}eqa/forgotpassword`,{
+      "email":email
+    }) 
+    if(forgotPasswordResponse.status===200){
+      alert("Forgot password link forwaded on your email")
+    }
+    }catch(error){
+      alert(error.response.data.error)
+    }
+  }
   return (
     <div className={Styles.container}>
       <div className={Styles.left}>
@@ -26,11 +41,11 @@ function PasswordReset() {
         <div className={Styles.form}>
           <div className={Styles.inputItem}>
             <label htmlFor="userName">Email</label>
-            <input type="email" name="" id="userName" />
+            <input onChange={(e)=>setemail(e.target.value)} value={email} type="email" name="" id="userName" />
           </div>
 
           <div className={Styles.btn}>
-            <Button data="Send Reset Link" styles={{ maxWidth: "100%" }} />
+            <Button onClickSendResetLink={()=>forgotPassword()} data="Send Reset Link" styles={{ maxWidth: "100%" }} />
           </div>
         </div>
 
