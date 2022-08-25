@@ -22,7 +22,7 @@ function ProfileLeftSideBar() {
         </NavLink>
 
         <NavLink
-          to="/password"
+          to="/resetPassword"
           className={({ isActive }) => (isActive ? Styles.active : "")}
         >
           <div className={Styles.link}>
@@ -30,7 +30,7 @@ function ProfileLeftSideBar() {
             <span>Password</span>
           </div>
         </NavLink>
-        <Link onClick={()=>localStorage.clear()} to="/">
+        <Link onClick={() => localStorage.clear()} to="/">
           <div className={Styles.link}>
             <img src={logOut} alt="" />
             <span className={Styles.logOut}>Log Out</span>
