@@ -1,0 +1,59 @@
+.container {
+  padding: 2rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #dddddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.container .logoContainer .logo {
+  background: #2a2c2b;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.container .logoContainer span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+
+  color: #313131;
+}
+
+.container .button {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+
+  color: #333637;
+
+  background: #fee9e1;
+  padding: 1.8rem 3.5rem;
+  border-radius: 1.6rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.container .button span {
+  display: flex;
+  align-items: center;
+}
