@@ -77,4 +77,19 @@
   margin-top: 0.5rem;
 }
 
+.selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.5rem;
+}
 
+.selected .text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #302f2f;
+}
