@@ -14,6 +14,7 @@ import ProtectedRoutes from "./pages/ProtectedRoutes";
 import ResetPassword from "./components/resetPassword/ResetPassword";
 import Question from "./components/Question/questionTypeModal/Question";
 import BulkQuestion from "./components/Question/bulkQuestion/BulkQuestion";
+import Notification from "./pages/Notification/Notification";
 function App() {
   const isAuthenticated = localStorage.getItem("token");
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/resetPassword" element={<ResetPassword />} />
           <Route path="/question" element={<Question />} />
           <Route path="/bulkQuestion" element={<BulkQuestion />} />
+          <Route path="/notification" element={<Notification />} />
         </Route>
         {/* <Route path="/loading" element={<Loading />} /> */}
         <Route path="*" element={<NotFound />} />
