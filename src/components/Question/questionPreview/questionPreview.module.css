@@ -1,0 +1,95 @@
+.container {
+  background: rgba(23, 23, 23, 0.37);
+
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.container .modal {
+  width: 60%;
+  height: 100vh !important;
+
+  background: #ffffff;
+  /* box-shadow: -20px 0px 200px 3px rgba(0, 0, 0, 0.25); */
+  border-radius: 4rem 0px 0px 0px;
+  padding-top: 5rem;
+  padding-left: 6rem;
+  padding-right: 7rem;
+}
+
+.container .modal .header {
+  display: flex;
+  gap: 4rem;
+}
+
+.container .modal .header .subject {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #2f2e2e;
+  padding: 2.3rem 2.3rem;
+
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+
+  max-width: 60%;
+  min-width: 50%;
+}
+
+.container .modal .question {
+  margin-top: 3.7rem;
+  padding: 2rem 1.7rem 5rem 4.2rem;
+
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 16px;
+}
+
+.container .modal .question .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.7rem;
+
+  color: #000000;
+}
+
+.container .modal .question .desc {
+  margin-top: 1.3rem;
+
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.3rem;
+
+  color: #827c7c;
+}
+
+.readMore {
+  color: #ff6812;
+  cursor: pointer;
+}
+
+.container .modal .options {
+  margin-top: 2rem;
+}
+
+.container .modal .btn {
+  margin-top: 4rem;
+}
+
+.container .cross {
+  padding: 1.1rem;
+  background: #ffffff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  position: absolute;
+  top: 8%;
+  left: 32%;
+}
