@@ -1,6 +1,6 @@
 .container {
   background: rgba(23, 23, 23, 0.37);
-
+  height: 100%;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -8,14 +8,12 @@
 
 .container .modal {
   width: 60%;
-  height: 100vh !important;
+  /* height: 100vh !important; */
 
   background: #ffffff;
   /* box-shadow: -20px 0px 200px 3px rgba(0, 0, 0, 0.25); */
   border-radius: 4rem 0px 0px 0px;
-  padding-top: 5rem;
-  padding-left: 6rem;
-  padding-right: 7rem;
+  padding: 5rem 7rem 5rem 6rem;
 }
 
 .container .modal .header {
@@ -92,4 +90,39 @@
   position: absolute;
   top: 8%;
   left: 32%;
+}
+
+.container .modal .mid {
+  margin-top: 3.7rem;
+}
+
+.container .modal .mid .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.7rem;
+
+  color: #000000;
+}
+
+.container .modal .mid .grid {
+  margin-top: 2.7rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.container .modal .bottom {
+  margin-top: 3.7rem;
+}
+
+.container .modal .bottom .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.7rem;
+
+  color: #000000;
 }

@@ -6,7 +6,7 @@ import edit from "./../../../assets/icons/edit.svg";
 import crossBlack from "./../../../assets/icons/crossBlack.svg";
 import DashBoardHeader from "../../dashBoardHeader/DashBoardHeader";
 
-function QuestionPreview() {
+function QuestionPreviewOne() {
   return (
     <>
       <DashBoardHeader />
@@ -63,4 +63,4 @@ function QuestionPreview() {
   );
 }
 
-export default QuestionPreview;
+export default QuestionPreviewOne;

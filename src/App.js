@@ -15,7 +15,8 @@ import ResetPassword from "./components/resetPassword/ResetPassword";
 import Question from "./components/Question/questionTypeModal/Question";
 import BulkQuestion from "./components/Question/bulkQuestion/BulkQuestion";
 import Notification from "./pages/Notification/Notification";
-import QuestionPreview from "./components/Question/questionPreview/QuestionPreview";
+import QuestionPreviewOne from "./components/Question/questionPreview/QuestionPreviewOne";
+import QuestionPreviewTwo from "./components/Question/questionPreview/QuestionPreviewTwo";
 function App() {
   const isAuthenticated = localStorage.getItem("token");
 
@@ -34,7 +35,8 @@ function App() {
           <Route path="/question" element={<Question />} />
           <Route path="/bulkQuestion" element={<BulkQuestion />} />
           <Route path="/notification" element={<Notification />} />
-          <Route path="/questionPreview" element={<QuestionPreview />} />
+          <Route path="/questionPreview1" element={<QuestionPreviewOne />} />
+          <Route path="/questionPreview2" element={<QuestionPreviewTwo />} />
         </Route>
         {/* <Route path="/loading" element={<Loading />} /> */}
         <Route path="*" element={<NotFound />} />
