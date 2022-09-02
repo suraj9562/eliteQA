@@ -1,0 +1,311 @@
+.testDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px 35px;
+    gap:43px;
+}
+
+.testDetails section{
+    width: 46%;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 38px 58px;
+}
+.testDetails section label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #AAAAAA;
+}
+.testDetails section .inputBox{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+    border: 1.2px solid #DDDDDD;
+border-radius: 12px;
+}
+
+.testDetails section .inputBox img{
+    margin-right: 17px;
+}
+
+.testDetails section .inputBox input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.testDetails section .datePickerContainer{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap:29px;
+}
+
+.testDetails section .datePickerContainer .startDate{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.testDetails section .datePickerContainer .startDate label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #AAAAAA;
+}
+
+.testDetails section .datePickerContainer .startDate .inputBox{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+    border: 1.2px solid #DDDDDD;
+border-radius: 12px;
+}
+
+.testDetails section .datePickerContainer .startDate .inputBox img{
+    margin-right: 17px;
+}
+
+.testDetails section .datePickerContainer .startDate .inputBox input{
+    width: 100%;
+    border: none;
+    outline: none;
+ 
+}
+
+.testDetails section .experienceContainer{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap:36px
+}
+
+.testDetails section .experineceDropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+   
+}
+
+.testDetails section .experineceDropdown label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #AAAAAA;
+
+}
+
+.testDetails section .experineceDropdown .dropboxContainer{
+    width: 100%;
+    padding: 10px 30px;
+    border: 1.2px solid #DDDDDD;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.testDetails section .experineceDropdown .dropboxContainer select{
+    width: 100%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.5px;
+
+color: #585252;
+
+}
+
+.testDetails section .searchBox{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+ 
+}
+
+.testDetails section .searchBox label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #AAAAAA;
+
+}
+
+.testDetails section .searchBox .searchInputBox{
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1.2px solid #DDDDDD;
+    border-radius: 12px;
+    padding: 15px 20px;
+}
+
+.testDetails section .searchBox .searchInputBox input{
+    width: 95%;
+    outline: none;
+    border: none;
+}
+
+.testDetails section .searchBox .skillName{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.testDetails section .searchBox .skillName span{
+    padding: 5px 16px;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.testDetails section .testTypeContainer{
+    margin-top: 58px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.testDetails section .testTypeContainer label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #AAAAAA;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+}
+
+.testDetails section .testTypeContainer .testTypeItemContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.testDetails section .testTypeContainer .testTypeItemContainer span{
+    margin-top: 25px;
+    width: 35%;
+    background: #FFFFFF;
+    border:1px solid #D9E1E7;
+    gap: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 21px;
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* or 119% */
+
+
+color: #384455;
+}
+
+.testDetails section .testTypeContainer .testTypeItemContainer span input{
+    width: 21.8px;
+    height: 21.8px;
+}
+
+.testDetails section .libraryTypeContainer{
+    margin-top: 43px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px;
+}
+
+.testDetails section .libraryTypeContainer span{
+    gap:15px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height, or 147% */
+
+
+color: #6C6868;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.testDetails section .libraryTypeContainer span .checkbox_input{
+    width: 19px;
+    height: 19px;
+    border: 2px solid #D9E1E7;
+    background: rgba(56, 68, 85, 0.0001);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}

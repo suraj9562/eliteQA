@@ -8,6 +8,7 @@
   border: 1px solid #dddddd;
   border-radius: 12px;
   max-width: 18rem;
+  cursor: pointer;
 }
 
 .container span {

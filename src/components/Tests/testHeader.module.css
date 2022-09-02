@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 20px 40px;
+}
+
+.container .buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 24%;
+}
+
+.container .buttonContainer button{
+    cursor: pointer;
+    width: 199px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #999999;
+    border-radius: 10px;
+}
+
+.container .buttonContainer button span{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+
+color: #FFFFFF;
+}
+
+.container .buttonContainer .closeButton{
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    font-size: 14px;
+}

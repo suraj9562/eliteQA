@@ -1,0 +1,75 @@
+.tableContainer {
+  margin: 2rem 4.5rem;
+  margin-right: 11rem;
+  padding: 5rem 4rem 7rem 5rem;
+  border: 1px solid #dddddd;
+  border-radius: 16px;
+}
+
+.tableContainer .headingContainer {
+  padding-right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableContainer .headingContainer .heading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #676262;
+}
+
+.tableContainer .table {
+  margin-top: 6rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  border-radius: 1.5rem;
+}
+
+table tr {
+  border: 1px solid #dddddd;
+}
+
+th {
+  text-align: center;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #384455;
+  padding: 2rem 4.5rem;
+  background: #fee9e1;
+  border: 0.5px solid #dddddd;
+}
+
+td {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #636968;
+  padding: 2rem 4.5rem;
+  border: 1px solid #dddddd;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 1.7rem;
+}
+
+.btnContainer .icon {
+  cursor: pointer;
+  background: #384455;
+  padding: 1.3rem;
+  border-radius: 50%;
+}
+
+.btnContainer .icon img {
+  max-width: 1.2rem;
+}
