@@ -20,6 +20,7 @@ import QuestionPreviewTwo from "./components/Question/questionPreview/QuestionPr
 import CreateTest from "./components/Tests/createTest";
 import TestScreenTwo from "./components/Tests/screenTwo/TestScreenTwo";
 import InviteSentBulk from "./components/Tests/inviteSentBulk/InviteSentBulk";
+import TestScreenThree from "./components/Tests/screenThree/TestScreenThree";
 function App() {
   const isAuthenticated = localStorage.getItem("token");
 
@@ -42,6 +43,7 @@ function App() {
           <Route path="/questionPreview2" element={<QuestionPreviewTwo />} />
           <Route path="/createTest1" element={<CreateTest />} />
           <Route path="/createTest2" element={<TestScreenTwo />} />
+          <Route path="/createTest3" element={<TestScreenThree />} />
           <Route path="/inviteSent" element={<InviteSentBulk />} />
         </Route>
         {/* <Route path="/loading" element={<Loading />} /> */}

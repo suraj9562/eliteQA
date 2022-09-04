@@ -1,0 +1,106 @@
+.container {
+  /* width: 100vw; */
+  margin-left: 5rem;
+  margin-right: 12rem;
+  padding: 2.5rem 4.5rem;
+  border: 1px solid #dddddd;
+  border-radius: 1.6rem;
+  display: flex;
+  gap: 5.4rem;
+}
+
+.container .left {
+  width: 20%;
+  border: 1px solid #dddddd;
+  border-radius: 16px;
+  padding: 2.2rem 3rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+
+.container .right {
+  width: 80%;
+}
+
+.container .left .skills .text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  color: #252424;
+}
+
+.container .left .skills .tags {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.container .left .Difficulty .text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  color: #252424;
+}
+
+.container .left .Difficulty .DifficultyTypeContainer {
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.container .left .footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .left .footer .fText {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 3rem;
+  color: #676262;
+}
+
+.container .right .btnContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.container .right .mcq {
+}
+
+.container .right .mcq .text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #605a5a;
+}
+
+.container .right .mcq .cardContainer {
+  margin-top: 3rem;
+}
+
+.container .right .coding {
+  margin-top: 4rem;
+}
+
+.container .right .coding .text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #605a5a;
+}
+
+.container .right .coding .cardContainer {
+  margin-top: 3rem;
+}

@@ -1,0 +1,24 @@
+.container {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  gap: 1.5rem;
+
+  color: #6c6868;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container .checkbox_input {
+  width: 19px;
+  height: 19px;
+  border: 2px solid #d9e1e7;
+  background: rgba(56, 68, 85, 0.0001);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
