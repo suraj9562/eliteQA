@@ -1,18 +1,30 @@
 import TestHeader from "../testHeader";
 import TextButtonsContainer from "../TextButtonsContainer";
 import Styles from "./testScreenThree.module.css";
+import { useState, useEffect } from "react";
 
 import Tag from "../tag/Tag";
 import Select from "../../Tests/select/Select";
 import DifButton from "../../Question/button/DifButton";
 import addBlack from "../../../assets/icons/addBlack.svg";
 import editIconBlack from "../../../assets/icons/editIconBlack.svg";
+import AddQuestionModal from "../addQuestionModal/AddQuestionModal";
 
 function TestScreenThree() {
   const skills = ["UI / UX", "Java", "Testing"];
+  const [modal, setModal] = useState(false);
+
+  useEffect(() => {
+    if (modal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [modal]);
 
   return (
     <>
+      {modal && <AddQuestionModal setModal={setModal} />}
       <TestHeader />
       <TextButtonsContainer />
       <div className={Styles.container}>
@@ -52,16 +64,22 @@ function TestScreenThree() {
                 }}
                 textStyle={{ color: "#384455" }}
               />
-              <DifButton
-                icon={addBlack}
-                data="Add Question"
-                styles={{
-                  maxWidth: "25rem",
-                  background: "#F4F9FB",
-                  border: "1px dashed #809fb8",
+              <div
+                onClick={() => {
+                  setModal(true);
                 }}
-                textStyle={{ color: "#384455" }}
-              />
+              >
+                <DifButton
+                  icon={addBlack}
+                  data="Add Question"
+                  styles={{
+                    maxWidth: "25rem",
+                    background: "#F4F9FB",
+                    border: "1px dashed #809fb8",
+                  }}
+                  textStyle={{ color: "#384455" }}
+                />
+              </div>
             </div>
           </div>
           <div className={Styles.mcq}>
