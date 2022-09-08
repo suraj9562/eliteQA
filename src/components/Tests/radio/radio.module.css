@@ -1,0 +1,40 @@
+.container {
+  padding: 1.7rem 2.5rem;
+  border: 1px solid #d9e1e7;
+  border-radius: 1.6rem;
+  display: flex;
+  gap: 3.4rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container .circle {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: 1px solid #d9e1e7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .circle .smallCircle {
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.container .text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #384455;
+}
+
+.active {
+  background-color: #00c49a;
+}

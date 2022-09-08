@@ -3,7 +3,8 @@
   width: 100%;
   z-index: 1000000;
 
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
+  background: rgba(34, 33, 33, 0.17);
   position: absolute;
   top: 0;
   left: 0;

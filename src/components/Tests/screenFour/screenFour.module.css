@@ -1,0 +1,91 @@
+.container {
+  margin: 5rem 11rem 2rem 7rem;
+
+  display: flex;
+  gap: 4.7rem;
+}
+
+.container .left {
+  width: 50%;
+  border: 1px solid #dddddd;
+  border-radius: 1.6rem;
+  padding: 5rem 6rem;
+}
+
+.container .left .top {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.container .left .top .title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #605a5a;
+}
+
+.container .left .top .mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .left .top .tags {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.container .left .midContainer {
+  margin-top: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.container .left .midContainer .title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #605a5a;
+}
+
+.container .left .midContainer .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container .left .bottomContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 5rem;
+}
+
+.container .left .bottomContainer .title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #aaaaaa;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.btnContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.container .right {
+  width: 50%;
+  border: 1px solid #dddddd;
+  border-radius: 1.6rem;
+  padding: 5rem 6rem;
+}

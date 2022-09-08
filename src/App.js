@@ -21,6 +21,7 @@ import CreateTest from "./components/Tests/createTest";
 import TestScreenTwo from "./components/Tests/screenTwo/TestScreenTwo";
 import InviteSentBulk from "./components/Tests/inviteSentBulk/InviteSentBulk";
 import TestScreenThree from "./components/Tests/screenThree/TestScreenThree";
+import ScreenFour from "./components/Tests/screenFour/ScreenFour";
 function App() {
   const isAuthenticated = localStorage.getItem("token");
 
@@ -31,21 +32,22 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/password/reset" element={<PasswordReset />} />
         <Route path="/password/new/:email" element={<CreateNewPassword />} />
-        <Route element={<ProtectedRoutes isAuthenticated={isAuthenticated} />}>
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/library" element={<Library />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/resetPassword" element={<ResetPassword />} />
-          <Route path="/question" element={<Question />} />
-          <Route path="/bulkQuestion" element={<BulkQuestion />} />
-          <Route path="/notification" element={<Notification />} />
-          <Route path="/questionPreview1" element={<QuestionPreviewOne />} />
-          <Route path="/questionPreview2" element={<QuestionPreviewTwo />} />
-          <Route path="/createTest1" element={<CreateTest />} />
-          <Route path="/createTest2" element={<TestScreenTwo />} />
-          <Route path="/createTest3" element={<TestScreenThree />} />
-          <Route path="/inviteSent" element={<InviteSentBulk />} />
-        </Route>
+        {/* <Route element={<ProtectedRoutes isAuthenticated={isAuthenticated} />}> */}
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/library" element={<Library />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/resetPassword" element={<ResetPassword />} />
+        <Route path="/question" element={<Question />} />
+        <Route path="/bulkQuestion" element={<BulkQuestion />} />
+        <Route path="/notification" element={<Notification />} />
+        <Route path="/questionPreview1" element={<QuestionPreviewOne />} />
+        <Route path="/questionPreview2" element={<QuestionPreviewTwo />} />
+        <Route path="/createTest1" element={<CreateTest />} />
+        <Route path="/createTest2" element={<TestScreenTwo />} />
+        <Route path="/createTest3" element={<TestScreenThree />} />
+        <Route path="/createTest4" element={<ScreenFour />} />
+        <Route path="/inviteSent" element={<InviteSentBulk />} />
+        {/* </Route> */}
         {/* <Route path="/loading" element={<Loading />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
