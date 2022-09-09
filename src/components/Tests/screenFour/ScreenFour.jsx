@@ -52,7 +52,7 @@ function ScreenFour() {
               <ToggleSwitch data="Shuffle Questions for each candidate" />
               <ToggleSwitch data="Take Snapshots via webcam every 30 second" />
               <ToggleSwitch data="Turn on fullscreen while test" />
-              <ToggleSwitch data="Turn Off copy paste from externa; sources" />
+              <ToggleSwitch data="Turn Off copy paste from external sources" />
               <ToggleSwitch data="Logout on leaving a test interface" />
             </div>
           </div>
@@ -67,7 +67,49 @@ function ScreenFour() {
             </div>
           </div>
         </div>
-        <div className={Styles.right}></div>
+        <div className={Styles.right}>
+          <div className={Styles.formItem1}>
+            <label htmlFor="time">Test Timing</label>
+            <input type="text" id="time" placeholder="30 Mins (Recommended)" />
+          </div>
+          <div className={Styles.formItem2}>
+            <label htmlFor="link">Test Link</label>
+            <input
+              type="text"
+              id="link"
+              placeholder="https://theeliteqa/tests/test-something-goes-here-123"
+            />
+          </div>
+          <div className={Styles.formItem3}>
+            <label htmlFor="ins">Test Instructions</label>
+
+            <div className={Styles.input}>
+              <input
+                type="text"
+                id="ins"
+                placeholder="Instruction first goes here placeholder"
+              />
+              <DifButton
+                data={"Add"}
+                styles={{ background: "#FF6812", border: "1px solid #FF6812" }}
+                textStyle={{ color: "#FFFFFF" }}
+              />
+            </div>
+
+            <ol>
+              <li>
+                Ensure that you are attempting the test using the correct email
+                ID.
+              </li>
+              <li>You must click Submit after you answer each question.</li>
+              <li>Once the test has started, the timer cannot be paused.</li>
+              <li>
+                Complete in one attempt. We recommend that you close all other
+                windows and tabs to ensure.
+              </li>
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
   );

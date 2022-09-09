@@ -89,3 +89,67 @@
   border-radius: 1.6rem;
   padding: 5rem 6rem;
 }
+
+.right label {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #aaaaaa;
+}
+
+.right .formItem1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.right .formItem2 {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.right .formItem3 {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.formItem1 input {
+  width: 60%;
+}
+
+.formItem2 input,
+.formItem1 input,
+.formItem3 input {
+  padding: 2rem 4rem;
+  border: 1.2px solid #dddddd;
+  border-radius: 1.2rem;
+
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+  color: #978e8e;
+}
+
+.formItem3 .input {
+  display: flex;
+  gap: 1.3rem;
+  justify-content: space-between;
+}
+
+.formItem3 .input input {
+  width: 100%;
+}
+
+ol li {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+
+  color: #787171;
+}
