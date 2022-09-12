@@ -1,15 +1,15 @@
 import React from "react";
 import Styles from "./testHeader.module.css";
 import companyLogo from "../../assets/icons/companylogo.svg";
-import saveicon from "../../assets/icons/save.svg";
+import saveIcon from "../../assets/icons/save.svg";
 import crossBlack from "../../assets/icons/plusBlack.svg";
-const TestHeader = () => {
+const TestHeader = ({ styles }) => {
   return (
     <div className={Styles.container}>
       <img src={companyLogo} alt="" />
       <div className={Styles.buttonContainer}>
-        <button>
-          <img src={saveicon} alt="" />
+        <button style={styles}>
+          <img src={saveIcon} alt="" />
           <span>Save As Draft</span>
         </button>
         <span className={Styles.closeButton}>

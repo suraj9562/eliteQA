@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function InviteSentBulk() {
   return (
     <>
-      <TestHeader />
+      <TestHeader styles={{ display: "none" }} />
       <div className={Styles.container}>
         <div className={Styles.cardContainer}>
           <div className={Styles.img}>
