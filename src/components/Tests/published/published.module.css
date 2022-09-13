@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  gap: 5rem;
+  padding: 7rem 13rem;
+}
+
+.container .left {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.2rem;
+  padding-bottom: 5rem;
+}
+
+.container .left .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #6c6868;
+}
+
+.container .left .subtitle {
+  width: 70%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #827c7c;
+}
+
+.container .left .link {
+  border: 1.2px solid #dddddd;
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+  padding-right: 15rem;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+  color: #978e8e;
+
+  position: relative;
+}
+
+.container .left .link .copy {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  padding: 2.2rem 2.9rem 2.1rem 4rem;
+
+  color: #ffffff;
+
+  position: absolute;
+  background: #00c49a;
+  border-radius: 0px 12px 12px 0px;
+
+  top: 0;
+  right: 0;
+}
+
+.container .right {
+  width: 50%;
+  border: 1px solid #dddddd;
+  box-shadow: 10px 10px 50px rgba(93, 87, 87, 0.05);
+  border-radius: 16px;
+}
+
+.container .right .header {
+  padding: 3.7rem 5.4rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.3rem;
+
+  color: #605a5a;
+
+  border-bottom: 1px solid #dddddd;
+}
+
+.container .right .body {
+  padding: 3.3rem 9.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+.container .right .body .formItem1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 6.5rem;
+  left: 3%;
+}
+
+.container .right .body .formItem1 input {
+  padding: 2rem 4rem;
+  border: 1.2px solid #dddddd;
+  border-radius: 1.2rem;
+
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+  color: #978e8e;
+}
+
+.container .right .body .formItem1 label {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #aaaaaa;
+}
