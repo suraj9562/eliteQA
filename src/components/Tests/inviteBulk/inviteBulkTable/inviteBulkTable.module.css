@@ -1,0 +1,82 @@
+.tableContainer {
+  margin: 2rem 4.5rem;
+  margin-right: 11rem;
+  padding: 5rem 4rem 7rem 5rem;
+}
+
+.tableContainer .headingContainer {
+  padding-right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableContainer .headingContainer .heading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  color: #605a5a;
+}
+
+.tableContainer .table {
+  margin-top: 6rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  border-radius: 1.5rem;
+}
+
+table tr {
+  border: 1px solid #dddddd;
+}
+
+th {
+  text-align: center;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #384455;
+  padding: 2rem 4.5rem;
+  background: #fee9e1;
+  border: 0.5px solid #dddddd;
+}
+
+td {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #636968;
+  padding: 2rem 4.5rem;
+  border: 1px solid #dddddd;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.btnContainer .icon {
+  cursor: pointer;
+  background: #2a2c2b;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.3rem;
+}
+
+.btnContainer .icon img {
+  max-width: 1.2rem;
+  margin-right: 1rem;
+}
+
+.btnContainer .icon span {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
