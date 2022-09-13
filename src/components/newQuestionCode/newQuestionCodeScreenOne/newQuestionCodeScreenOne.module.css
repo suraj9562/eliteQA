@@ -1,0 +1,131 @@
+.container {
+  padding: 6.1rem 2.9rem 5.7rem 3.6rem;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 10px 0px 50px rgba(96, 124, 236, 0.08);
+  border-radius: 1.6rem;
+}
+
+.container .head {
+  display: flex;
+  align-items: center;
+  gap: 3.3rem;
+}
+
+.container .head label {
+  display: block;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #6e6a6a;
+}
+
+.container .head input {
+  width: 100%;
+  margin-top: 1.8rem;
+  padding: 1.9rem 2.3rem;
+
+  border: 1px solid #dddddd;
+  border-radius: 1.2rem;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #2f2e2e;
+}
+
+.container .head .formItem1 {
+  width: 50%;
+}
+
+.container .bottom {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2.6rem;
+}
+
+.container .left {
+  border: 1px solid #dddddd;
+  border-radius: 1.6rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 25%;
+}
+
+.container .mid {
+  border: 1px solid #dddddd;
+  border-radius: 1.6rem;
+
+  padding: 2rem 3rem;
+  width: 50%;
+}
+
+.container .right {
+  border: 1px solid #dddddd;
+  border-radius: 1.6rem;
+
+  padding: 2rem 3rem;
+  width: 25%;
+}
+
+.formItem3 {
+  position: relative;
+}
+
+.formItem3 label {
+  display: block;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #252424;
+}
+
+.formItem3 input {
+  margin-top: 3rem;
+  width: 100%;
+  margin-top: 1.8rem;
+  padding: 1.9rem 2rem;
+  padding-left: 5rem;
+
+  border: 1px solid #dddddd;
+  border-radius: 1.2rem;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #2f2e2e;
+}
+
+.formItem3 .tag {
+  position: absolute;
+  top: 6rem;
+  left: 3%;
+}
+
+.tags {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.right .title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #252424;
+}
+.right .options {
+  margin-top: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
