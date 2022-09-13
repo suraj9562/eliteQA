@@ -1,18 +1,15 @@
-import Styles from "./newQuestion.module.css";
-
-import TestHeader from "../Tests/testHeader";
-import NewQuestionScreenOne from "./newQuestionScreenOne/NewQuestionScreenOne";
-import Vector from "../../assets/icons/vector.svg";
-import NewQuestionScreenTwo from "./newQuestionScreenTwo/NewQuestionScreenTwo";
 import { useState } from "react";
-
-function NewQuestion() {
-  const options = ["Basic Details", "Create Question"];
-
+import TestHeader from "../Tests/testHeader";
+import Styles from "./newQuestionCode.module.css";
+import NewQuestionCodeScreenOne from "./newQuestionCodeScreenOne/NewQuestionCodeScreenOne";
+import NewQuestionCodeScreenThree from "./newQuestionCodeScreenThree/NewQuestionCodeScreenThree";
+import NewQuestionCodeScreenTwo from "./newQuestionCodeScreenTwo/NewQuestionCodeScreenTwo";
+import Vector from "../../assets/icons/vector.svg";
+function NewQuestionCode() {
+  const options = ["Basic Details", "Create Question", "Test Cases & Langs"];
   const [isActive, setIsActive] = useState(0);
-
   return (
-    <>
+    <div>
       <TestHeader styles={{ display: "none" }} />
       <div className={Styles.container}>
         <div className={Styles.header}>
@@ -65,11 +62,12 @@ function NewQuestion() {
             </span>
           </div>
         </div>
-        {isActive === 0 && <NewQuestionScreenOne />}
-        {isActive === 1 && <NewQuestionScreenTwo />}
+        {isActive === 0 && <NewQuestionCodeScreenOne />}
+        {isActive === 1 && <NewQuestionCodeScreenTwo />}
+        {isActive === 2 && <NewQuestionCodeScreenThree />}
       </div>
-    </>
+    </div>
   );
 }
 
-export default NewQuestion;
+export default NewQuestionCode;
