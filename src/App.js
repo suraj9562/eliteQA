@@ -24,6 +24,8 @@ import TestScreenThree from "./components/Tests/screenThree/TestScreenThree";
 import ScreenFour from "./components/Tests/screenFour/ScreenFour";
 import NewQuestion from "./components/newQuestion/NewQuestion";
 import Published from "./components/Tests/published/Published";
+import InviteBulkUpload from "./components/Tests/inviteBulk/inviteBulkUpload/InviteBulkUpload";
+import InviteBulkTable from "./components/Tests/inviteBulk/inviteBulkTable/InviteBulkTable";
 function App() {
   const isAuthenticated = localStorage.getItem("token");
 
@@ -51,6 +53,8 @@ function App() {
         <Route path="/inviteSent" element={<InviteSentBulk />} />
         <Route path="/newQuestion" element={<NewQuestion />} />
         <Route path="/published" element={<Published />} />
+        <Route path="/inviteBulk" element={<InviteBulkUpload />} />
+        <Route path="/inviteBulkTable" element={<InviteBulkTable />} />
         {/* </Route> */}
         {/* <Route path="/loading" element={<Loading />} /> */}
         <Route path="*" element={<NotFound />} />
