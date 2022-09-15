@@ -1,0 +1,114 @@
+.container {
+  padding: 6.1rem 2.9rem 5.7rem 3.6rem;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 10px 0px 50px rgba(96, 124, 236, 0.08);
+  border-radius: 1.6rem;
+
+  display: flex;
+  gap: 5rem;
+}
+
+.container .left {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.container .left textarea,
+.container .right textarea {
+  height: 60%;
+  resize: none;
+  border: 1px solid #c9c7c7;
+  border-radius: 1.6rem;
+  padding: 2rem 3rem;
+}
+
+.container .left .title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #605a5a;
+}
+
+.container .right {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.container .right .title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #605a5a;
+}
+
+.container .right .subtitle {
+  margin-top: 0.8rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #787171;
+}
+
+.btnContainer {
+  margin-top: 3.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.difButton {
+  cursor: pointer;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.5rem;
+  border: 1px dashed #809fb8;
+  border-radius: 1.6rem;
+  background: #f4f9fb;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #605a5a;
+}
+
+.btn span {
+  padding: 1rem 5rem;
+  border: 1.2px solid #dddddd;
+  border-radius: 1rem;
+
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #605a5a;
+}
+
+.difButton img {
+  width: 4rem;
+}
+
+.difButton span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  color: #384455;
+}

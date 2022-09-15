@@ -1,0 +1,116 @@
+.container {
+  padding: 6.1rem 2.9rem 5.7rem 3.6rem;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 10px 0px 50px rgba(96, 124, 236, 0.08);
+  border-radius: 1.6rem;
+
+  display: flex;
+  gap: 5rem;
+}
+
+.container .left {
+  width: 50%;
+}
+
+.container .right {
+  width: 50%;
+}
+
+.container .right .selectContainer {
+  margin-top: 3rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.container .right .selectContainer .column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #605a5a;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+
+  color: #787171;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  border-radius: 1.5rem;
+}
+
+table tr {
+  border: 1px solid #dddddd;
+}
+
+th {
+  text-align: center;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #384455;
+  padding: 2rem 4.5rem;
+  background: #fee9e1;
+  border: 0.5px solid #dddddd;
+}
+
+td {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #636968;
+  padding: 2rem 3.5rem;
+  border: 1px solid #dddddd;
+}
+
+.inputContainer {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+.inputContainer .row {
+  display: flex;
+  gap: 2rem;
+}
+
+.input label {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #605a5a;
+}
+
+.inputContainer textarea {
+  margin-top: 1rem;
+  resize: none;
+  width: 100%;
+  border: 1px solid #c9c7c7;
+  border-radius: 1.6rem;
+  padding: 2rem 3rem;
+}
+
+.inputContainer .row textarea {
+  margin-top: 1rem;
+  resize: none;
+  border: 1px solid #c9c7c7;
+  border-radius: 1.6rem;
+  padding: 2rem 3rem;
+}
